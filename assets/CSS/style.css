@@ -1,0 +1,887 @@
+*,::before,::after{margin: 0; padding: 0; box-sizing: border-box;}
+a{ text-decoration: none; color: inherit;}
+canvas,img,video{ vertical-align: bottom;}
+ul{ list-style: none; padding: 0;}
+button{ cursor: pointer; padding: 0;}
+label{ display: inline-block;}
+:disabled{ cursor: not-allowed;}
+
+html{ font-size: 15px;
+    scroll-behavior: smooth; 
+    scroll-padding-top: 80px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container{ max-width: 1230px; margin: auto; padding: 0 20px;}
+
+.grid{display: grid;}
+.flex{ display: flex;}
+.justify-between{ justify-content: space-between;}
+.justify-right{ justify-content: right;}
+.justify-center{ justify-content: center;}
+.justify-around{justify-content: space-around;}
+.align-items{ align-items: center;}
+
+
+/* Wrapper 2  */
+.wrap-2{
+    margin-top: 5rem;
+}
+
+.wrap-2 h1{
+    color: #272262;
+}
+
+.content-2 button{
+    background-color: blue;
+    color: white;
+}
+
+/* wrapper 3  */
+
+.counter{
+    justify-content: center;
+    background-color: #e4e1e1;
+    padding: 25px;
+    gap: 40px;
+}
+
+.inner-counter{
+    text-align: center;
+}
+
+.inner-counter i{
+    font-size: 35px;
+    padding-bottom: 10px;
+}
+
+.inner-counter h3{
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+.inner-counter p{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* wrapper 4  */
+
+.wrap-4{
+    background-color: #e4e1e1;
+    padding: 30px;
+    margin-top: 4rem;
+}
+
+.wrap4-head h2{
+    font-size: 42px;
+    color: #272262;
+    text-align: center;
+}
+
+.wrap4-head p{
+    font-size: 30px;
+    margin: 20px 0;
+    font-weight: 600;
+    text-align: center;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.grid h3{
+    text-decoration: underline;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.wrap-btn button{
+    text-align: center;
+    background-color: #3546F0;
+    padding: 10px;
+    border: none;
+    margin-top: 30px;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.inner-section{
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+}
+
+/* wrapper 5  */
+
+.wrap5-text{
+    background-color: #3546F0;
+    padding: 50px;
+    color: #fff;
+}
+
+.wrap5-text h3{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.wrap5-text p{
+    line-height: 1.8;
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.wrap5-text  button{
+    padding: 15px;
+    font-size: 19px;
+    color: #3546F0;
+    border: none;
+    border-radius: 5px;
+}
+
+/* wrapper 6  */
+
+.wrap-6{
+    background-color: #e4e1e1;
+    margin-top: 3rem;
+}
+
+.wrap6-head{
+    text-align: center;
+    padding-top: 25px;
+}
+
+.wrap6-head h3{
+    font-size: 42px;
+    color: #272262;
+    text-align: center;
+}
+
+.wrap6-head p{
+    font-size: 30px;
+    margin: 20px 0;
+    font-weight: 600;
+    text-align: center;
+}
+
+.wrap-6 .inner-section h3{
+    text-decoration: none;
+}
+
+.wrap-6 .inner-section button{
+    padding: 10px 20px;
+    border: 1px solid #3546F0;
+    background: #fff;
+    color: #3546F0;
+    margin-top: 10px;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+/* wrapper 7  */
+.wrap-7{
+    background-color: #e4e1e1;
+    padding: 3.5rem 0;
+}
+
+.wrap-7 .inner-section{
+    height: 100%;
+    width: 100%;
+}
+
+.wrap-7 button{
+    text-align: center;
+    padding: 10px 15px;
+    border-radius: 2px;
+    border: none;
+    background-color: #3546F0;
+    color: #fff;
+    margin-top: 20px;
+}
+
+/* wrapper 8  */
+
+.wrap-8 .inner{
+    background-color: #F2F5F7;
+    padding: 0;
+}
+
+.wrap-8 .img img {
+    border-radius: 0px;
+}
+.wrap-8 .content-8 li{
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.wrap-8 .content-8{
+    background-color: #F2F5F7;
+    width: 100%;
+}
+
+/* wrapper 9  */
+
+.wrap-9{
+    margin: 3rem 0;
+}
+
+.wrap-9 button{
+    padding: 10px;
+    font-size: 18px;
+    background-color: #3546F0;
+    border: none;
+    color: #fff;
+}
+
+.inner-section iframe{
+    width: 100%;
+}
+
+.copy-right{
+    text-align: center;
+}
+
+
+/* Footer Section  */
+
+.footer{
+    background-color: #000;
+    color: #fff;
+    font-size: 18px;
+    padding: 8% 5% 4% 8%;
+}
+  
+.footer{
+  background-position: 100% top;
+  background-repeat: no-repeat;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+  
+.footer h4{
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+  
+.footer li{
+  margin-bottom: 5%;
+}
+  
+.social-icon{
+  font-size: 26px;
+  color: #F19555;
+  margin-bottom: 1rem;
+}
+.social-icon a{
+  margin-left: 10px;
+}
+
+.company-logo{
+  gap: 10px;
+  flex-direction: column;
+  /* background-color: #fff; */
+  margin: 20px 0;
+}    
+  
+.address i{
+    color: #FF9B56;
+    margin-right: 5%;
+    font-size: 25px;
+}
+  
+.address p{
+  align-items: center;
+  margin-bottom: 5%;
+  line-height: 22px;
+}
+  
+  /* ======= Responsive ======  */
+
+@media screen and (max-width:768px) {
+
+  .connect-mail{
+   width: 70%;
+  }
+  
+  .footer{
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 540px) {
+    .connet-page{
+        background: #000;
+        background-color: #7F4116;
+        padding: 10% 5%;
+    }
+    
+      .connect-mail{
+        width: 100%;
+        padding: 7px;
+      }
+    
+      .connet-page h3{
+        font-size: 21px;
+        padding-top: 20px;
+      }
+    
+      .connet-page p{
+        font-size: 18px;
+      }
+    
+      .connect-mail button{
+        padding: 8px;
+        font-size: 16px;
+      }
+    
+      .footer{
+        grid-template-columns: repeat(1, 1fr);
+      }
+      
+}
+
+
+/* ============== Contact Page ================  */
+
+.cont-inner{
+    gap: 20px;  
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont-content{
+    text-align: center;
+    padding-right: 40px;
+}
+
+.cont-content h1 {
+    font-size: 45px;
+}
+
+.cont-content p {
+    padding-right: 20px;
+    font-size: 18px;
+}
+
+.cont-content span{
+    font-size: 16px;
+    color: rgb(141, 139, 139);
+}
+
+.contact-form-wrapper{
+    background-color: #fff;
+    padding: 30px;
+    /* width: 30%;   */
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 5px rgba(89, 97, 67, 0.2);
+}
+
+.form-item input, textarea{
+    width: 100%;
+    margin: 10px 0;
+    padding: 5px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.form-item label{
+    font-size: 20px;
+}
+
+.btn{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0026ff;
+    color: #fff;
+    border: 1px solid #0026ff;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    transition: all .5s ease-in-out;
+}
+
+.btn:hover{
+    background-color: transparent;
+    color: #3546F0;
+    border: 1px solid #ddd;
+}
+
+/* map section  */
+
+.cont-map{
+    justify-content: space-around;
+    margin-bottom: 25px;
+}
+.cont-address{
+    background-color: #0026ff;
+    color: #fff;
+    padding: 30px;
+    font-size: 20px;
+}
+
+.cont-address p{
+    margin-bottom: 25px;
+}
+
+.cont-address button{
+    background-color: transparent;
+    border: 1px solid #fff;
+    align-items: center;
+}
+
+
+/* ==============About Page =====================  */
+
+/* wrapper -1  */
+
+.about-wrap1{
+    background-color: #F3F3F3;
+}
+.about-inner{
+    justify-content: space-between;
+    padding: 20px;
+}
+.routes{
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.about-content{
+    padding-right: 60px;
+}
+
+.about-content ul{
+    margin-top: 20px;
+}
+
+.about-content h1{
+    /* font-size: 2.25rem; */
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+
+.hr{
+    margin-top: 10px;
+    padding: 1px;
+    background-color: #fff;
+    color: #fff;
+}
+
+.about-icon{
+    margin-top: 20px;
+}
+
+.routes a{
+    text-decoration: underline;
+}
+
+.about-content li{
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+.about-wrap1 span{
+    font-size: 22px;
+    padding: 0 10px;
+    color: #ddd;
+}
+
+.about-wrap1 i{
+    color: #B8AC1B;
+    font-size: 30px;
+    margin-right: 15px;
+}
+
+.about-img{
+    position: absolute;
+    bottom: 20px;
+    left: -40px;
+}
+
+/* about wrapper 2  */
+
+.about-wrap2{
+    margin: 12% 0 5% 0;
+    padding: 0 20px;
+}
+
+.about-wrap2 h2{
+    text-align: center;
+    font-family: "IBM Plex Sans", Sans-serif;
+    font-size: 42px;
+    font-weight: 600;
+    color: #272262;
+}
+
+.about-wrap2 p{
+    font-size: 16px;
+    line-height: 1.8;
+    text-align: justify;
+    font-family: "IBM Plex Sans", Sans-serif;
+    font-weight: 400;
+    color: #1A1A1A;
+}
+
+  /* about wrapper section 3  */
+
+.about-wrap3 .inner-section{
+    background-color: #FFFFFF;
+    padding: 25px 25px 25px 25px;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0px 0px 10px 0px #73B2FF;
+    height: 100%;
+    text-align: center;
+    align-items: center;
+}
+
+.about-wrap3 .inner-section h3{
+    text-decoration: none;
+}
+
+.about-wrap4{
+    margin-top: 50px;
+}
+
+.about-wrap4 h2{
+    font-size: 42px;
+    color: #272262;
+    margin-bottom: 20px;
+}
+
+.about-wrap4-content li{
+    margin: 0 0 20px 20px;
+    list-style: disc;
+}
+
+.about-wrap4-content p{
+    margin: 0 0 20px 20px;
+}
+
+.about-wrap5-content li{
+    margin: 0 0 0 20px;
+    list-style: disc;
+}
+
+.about-wrap6{
+    margin: 50px 0;
+}
+
+.about-wrap6 h2{
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+
+/* Total Knee Replacement Surgery   */
+
+/* wrapper 1  */
+
+.total-knee-wrap1{
+    background-color: #F3F3F3;
+}
+
+.total-knee-content{
+    padding-right: 40px;
+}
+
+.total-knee-content h1 {
+    color: #0557BC;
+    font-size: 44px;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.total-knee-wrap1 .img img{
+    text-align: center;
+    justify-content: center;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.total-knee-wrap1 button{
+    margin-top: 20px;
+}
+
+.total-knee-wrap1 svg{
+    background: #F3F3F3;
+}
+
+/* wrapper 2  */
+
+.total-knee{
+    margin: 20px 0;
+}
+
+.total-knee p{
+    margin: 20px 10px;
+}
+
+/* wrapper 3  */
+.total-knee-wrap3{
+    margin: 40px 0;
+}
+
+.total-knee-wrap3 .partial-knee-content h2{
+    font-size: 30px;
+    color: #000;
+}
+
+.img {
+    text-align: -webkit-center;
+    padding: 0px 0px 47px 25px;
+}
+
+/* wrapper 4  */
+
+.total-knee-wrap4 .inner-section{
+    background-color: #FFFFFF;
+    padding: 25px 25px 25px 25px;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0px 0px 10px 0px #b4b4b480;
+    border: solid #E6E6E6;
+    height: 100%;
+}
+
+.total-knee-wrap4 .inner-section h3{
+    text-decoration: none;
+}
+
+.total-knee-wrap4 .wrap4-head h2 {
+    font-size: 32px;
+    color: #000;
+    margin: 40px 0 30px 0;
+}
+
+.total-knee-wrap4 .wrap4-head p{
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.total-knee-section{
+    margin-left: 10px;
+}
+
+/* wrapper 5  */
+
+.total-knee-wrap5 h2{
+    font-size: 30px;
+}
+
+.total-knee-wrap5 p{
+    margin: 10px 0;
+}
+
+.total-knee-wrap5{
+    text-align: center;
+    align-items: center;
+    background-color: transparent;
+    background-image: linear-gradient(216deg, #C0D2FF 0%, #FFFFFF 100%);
+    border-radius: 30px 30px 30px 30px;
+    padding: 25px;
+    margin: 40px 0;
+    border: 1px solid #C6D2FF;
+}
+
+.total-knee-wrap5 button{
+    margin-top: 15px;
+}
+
+.total-knee-wrap6{
+    margin: 100px 0 50px 0;
+}
+
+/* wrapper 7  */
+
+.total-knee-wrap7 .inner-section{
+    background-color: #f6f6f6;
+    box-shadow: none;
+    border-width: 8px 0px 0px;
+    border-color: #0557bc;
+}
+
+/* .total-knee-wrap4 .total-knee-section{
+    text-align: center;
+} */
+
+.total-knee-wrap4 .total-knee-section i{
+    font-size: 20px;
+    color: #084af3;
+    margin-bottom: 20px;
+}
+
+.total-knee-wrap4 .total-knee-section h3{
+    font-size: 18px;
+}
+
+/* total knee faqs  */
+
+.total-knee-wrap8{
+    margin: 100px 0 50px 0;
+}
+
+.faq .accordion{
+    color: #1f2124;
+}
+
+.total-knee-wrap8 .accordion-item {
+    background: #fff;
+    font-size: 42px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: none;
+    border: 1px solid gray;
+    margin-bottom: 10px;
+}
+
+.total-knee-wrap8 .accordion-content {
+    padding: 0 15px;
+    font-size: 16px;
+    color: #444;
+    background: #F8F8F8;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out, padding 0.3s ease-in-out;
+}
+
+/* ============= Partial knee replacement page ============= */
+
+   /* wrapper 1  */
+
+.partial-knee-inner{
+    padding: 80px 20px 0 20px;
+}
+
+.partial-knee-content h1{
+    font-family: "IBM Plex Sans", Sans-serif;
+    font-size: 44px;
+    font-weight: 600;
+    color: #0557BC;
+}
+
+    /* wrapper -4  */
+.partial-knee-wrap3 section{
+    margin: 25px 0 30px 0;
+}
+
+.partial-knee-content p{
+    font-family: "IBM Plex Sans", Sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    color: #000000;
+    line-height: 1.65;
+    margin: 20px 20px 20px 0;
+}
+
+.partial-knee-content ol li{
+    font-size: 16px;
+    margin: 0px 0px 0px 20px;
+    list-style-type: decimal;
+}
+
+.partial-knee-content ul li{
+    margin: 0px 0px 0px 20px;
+    list-style-type: disc;
+}
+
+.partial-knee-col .img{
+    align-content: flex-end;
+    align-items: flex-end;
+    padding: 0px 0px 47px 25px;
+}
+
+.partial-knee-wrap3 .partial-knee-content h2{
+    font-size: 30px;
+    color: #000;
+}
+
+    /* wrapper 5 */
+.partial-knee-wrap5{
+    background-image: none;
+    background-color: #084AF3;
+    color: #fff;
+}
+
+.partial-knee-wrap5 button{
+    background-color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+    fill: #084AF3;
+    color: #084AF3;
+    &:hover{
+        background-color: #FFFFFF;
+        color: #084AF3;
+    }
+}
+
+
+/* Hip replacement wrapper 5  */
+
+.hip-wrap5{
+    margin: 150px 0 100px 0;
+}
+
+.hip-wrap5 h2{
+    text-align: center;
+    font-size: 30px;
+}
+
+.griid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin: 44px 0 40px 0;
+}
+
+.hip-section{
+    padding: 25px;
+    border: 1px solid black;
+    border-radius: 20px 20px 10px 0px;
+    box-shadow: 0px 0px 5px 0px #084AF3;
+}
+
+/* ===== arthroscopy surgeon section page ======= */
+
+.arthroscopy .griid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.arthroscop-contact{
+    text-align: justify;
+}
+
+.arthroscop-contact button{
+    background-color: transparent;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-image: linear-gradient(180deg, #4468C3 0%, #000000 100%);
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+
+/* ================ ACL & ligament section page ================== */
+
+.acl-wrap8 .hip-section{
+    box-shadow: none;
+    border: 1px solid #E6E6E6;
+    border-radius: 5px;
+}
+
+.checkmark{
+    font-size: 22px;
+    color: #0557BC;
+    font-weight: 800;
+    margin-right: 20px;
+}
+
+/* ================ meniscus Tear  page section =========== */
+.meniscus-wrap1 .about-inner {
+    padding: 100px 0 0 0;
+}

@@ -1,0 +1,181 @@
+/* Header Section  */
+
+header {
+    align-items: center;
+    font-size: 17px;
+    border-bottom: 1px solid black;
+}
+
+.top-media{
+    align-items: center;
+}
+
+.top-media p{
+    &:hover{
+        color: #0026ff;
+    }
+}
+
+.top-media a{
+    padding-left: 10px;
+    font-size: 22px;
+    &:hover{
+        color: #ee7d2d;
+    }
+}
+
+.Logo {
+    align-items: center;
+}
+
+.logo a{
+    background-color: #fff;
+}
+
+.links{
+    margin: 0 25px;
+    flex-wrap: wrap;
+}
+
+.links a {
+    color: #0026ff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 20px; 
+    &:hover{
+        background-color: lightgray;
+        color: #111;
+    }
+}
+
+nav{
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+nav button{
+    padding: 12px 18px;
+    margin-left: 30px;
+    background-color: #272262;
+    border: none;
+    border-radius: 30px;
+    color: #fff;
+    &:hover{
+        background-color: #0026ff;
+    }
+}
+
+.nested-links {
+    display: none;
+    position: absolute; 
+    top: 121px;
+    background-color: #fff;
+    box-shadow: 0 3px 5px rgba(89, 97, 67, 0.2);
+    border-radius: 10px;
+    z-index: 1000; 
+    padding: 15px;
+}
+
+.nested-links li{
+    margin-bottom: 10px;
+}
+
+.menu-item:hover .nested-links {
+    display: block; 
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+
+/* First wrapper  */
+
+.wrap-1 {
+    background-color: blue;
+    color: white;
+}
+
+.inner {
+    gap: 20px;
+    padding: 30px;
+}
+
+.content h1 {
+    font-size: 55px;
+}
+
+.content p {
+    padding-right: 20px;
+    font-size: 19px;
+    line-height: 1.8;
+}
+
+.content button {
+    margin-top: 20px;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.img img {
+    border-radius: 20px;
+    /* margin-top: 30px; */
+}
+
+
+/* Comman Accordian  */
+
+.accordion-title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.accordion-item {
+    background: #fff;
+    font-size: 42px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px 0px #D5E1FF;
+    margin-bottom: 10px;
+}
+
+.accordion-header {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.accordion-header::after {
+    content: "▶";
+    font-size: 14px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.accordion-item.active .accordion-header::after {
+    transform: rotate(90deg);
+}
+
+.accordion-content {
+    padding: 0 15px;
+    font-size: 16px;
+    color: #444;
+    background: #fff;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out, padding 0.3s ease-in-out;
+}
+
+.accordion-item.active .accordion-content {
+    padding: 20px 15px;
+    max-height: 300px;
+}

@@ -1,0 +1,511 @@
+
+@media (max-width: 1100px) {
+    .inner {
+        padding: 20px;
+    }
+
+    .content h1 {
+        font-size: 50px;
+    }
+
+    .content p {
+        font-size: 18px;
+    }
+
+    .content button {
+        font-size: 18px;
+        padding: 12px;
+    }
+    /* Wrapper 3  */
+    .counter {
+        gap: 30px;
+    }
+
+    .inner-counter h3 {
+        font-size: 28px;
+    }
+
+    .inner-counter p {
+        font-size: 18px;
+    }
+
+    /* wrapper 4  */
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .wrap4-head h2 {
+        font-size: 38px;
+    }
+
+    .wrap4-head p {
+        font-size: 26px;
+    }
+
+    .wrap-btn button {
+        font-size: 18px;
+        padding: 12px;
+    }
+
+    /* wrapper 5  */
+    .wrap5-text h3 {
+        font-size: 35px;
+    }
+
+    .wrap5-text p {
+        font-size: 17px;
+    }
+
+    .wrap5-text button {
+        font-size: 18px;
+        padding: 14px;
+    }
+}
+/* ================= 992 px ====================  */
+
+@media (max-width:992px) {
+    .w-100 {
+        width: 100%;
+    }
+
+    /* Header section  */
+    nav button{
+        display: none; 
+    }
+
+    .top-media .social-links{
+        display: none; 
+    }
+
+    .top-media{
+        justify-content: space-between;
+        margin: 0 20px;
+    }
+
+    .links.active {
+        display: flex;
+    }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+        font-size: 24px;
+        padding: 10px;
+    }
+
+    .links {
+        display: none; 
+        flex-direction: column;
+        position: absolute;
+        top: 70px; 
+        left: 0;
+        right: 0;
+        background-color: #333;
+        padding: 10px 20px;
+        z-index: 1000;
+    }
+
+    .links li {
+        margin-bottom: 10px; 
+    }
+
+    .nested-links {
+        border-radius: 10px;
+        position: absolute; 
+        top: 80px;
+        left: 160px;
+        background-color: #333;
+        box-shadow: 0 6px 8px rgba(250, 248, 248, 0.1);
+        padding: 0;
+        z-index: 1000;
+    }
+
+    .nested-links.active {
+        display: block;
+    }
+
+    /* wrapper 5  */
+    .wrap5-img img{
+        height: 100%;
+        width: 100%;
+    }
+
+    /* ====== About page wrapper 1 ======= */
+    .about-content {
+        padding: 0;
+    }
+    .about-col .img{
+        text-align: -webkit-center;
+        margin-top: 50px;
+    }
+
+    .about-img{
+        bottom: -10%;
+        left: 0%;
+    }
+
+    .about-img{
+        width: auto;
+    }
+
+    .about-col {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-wrap3{
+        padding: 0 20px;
+    }
+
+    /* ======== partial replacement page ======== */
+
+    /* wrapper 1  */
+    .partial-knee-inner {
+        padding: 20px 20px 0 20px;
+    }
+
+    .partial-knee-content h1 {
+        font-size: 35px;
+    }
+    
+    .partial-knee-col .img img{
+        width: 60%;
+        height: 50%;
+    }
+
+    .partial-knee-col .img{
+        padding: 20px 0px 47px 0px;
+    }
+
+    /* wrapper 2  */
+    .partial-knee-wrap2
+
+    .total-knee {
+        margin: 20px 0;
+        gap: 20px;
+    }
+    
+}
+
+/* ==================== 768 px ================  */
+
+@media (max-width: 768px) {
+    /* wrap 1 section  */
+    .inner {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .content h1 {
+        font-size: 40px;
+    }
+
+    .content-2{
+        order: 1;
+    }
+    .img{
+        order: 2;
+    }
+
+    .content p {
+        font-size: 16px;
+        padding: 0 20px; 
+    }
+
+    .content button {
+        font-size: 18px;
+        padding: 10px 20px;
+    }
+
+    .img img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* Wrapper 3  */
+    .counter {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .inner-counter h3 {
+        font-size: 25px;
+    }
+
+    .inner-counter p {
+        font-size: 18px;
+    }
+
+    /* wrapper 4  */    
+    .inner-section img{
+        height: auto;
+        max-width: 100%;
+    }
+    .wrap4-head h2 {
+        font-size: 32px;
+    }
+
+    .wrap4-head p {
+        font-size: 24px;
+    }
+
+    .wrap-btn button {
+        font-size: 16px;
+        padding: 12px;
+    }
+
+    /* wrapper 5  */
+    .wrap5-section{
+        flex-direction: column;
+    }
+    .wrap5-text h3 {
+        font-size: 30px;
+    }
+
+    .wrap5-text p {
+        font-size: 16px;
+    }
+
+    .wrap5-text button {
+        font-size: 17px;
+        padding: 12px;
+    }
+
+    /* ====== About page wrapper 1 ======  */
+
+    .about-img {
+        bottom: -10%;
+        left: -1%;
+    }
+
+    .about-img{
+        width: 60%;
+    }
+
+    .img{
+        width: 100%;
+        text-align: center;
+    }
+
+    .about-icon{
+        flex-direction: column;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .about-icon div{
+        justify-content: center;
+    }
+
+    .about-wrap4 , .about-wrap6{
+        padding: 0 20px;
+    }
+
+    /* total knee replacement page  */
+    .total-knee-wrap4 .wrap4-head h2 {
+        font-size: 24px;
+    }
+
+    /* partial knee replacement page  */
+
+    /* wrapper 1  */
+    .partial-knee-col .content-2{
+        order: 2;
+    }
+
+    .partial-knee-inner {
+        padding: 20px 20px 0 20px;
+    }
+
+    .partial-knee-content h1, h2{
+        font-size: 25px;
+    }
+
+    .partial-knee-content li{
+        list-style: disc;
+    }
+
+    .partial-knee-col .img{
+        padding: 20px 0px 47px 0px;
+        order: 1;
+    }
+
+    .partial-knee-col .img img{
+        width: 100%;
+        height: 100%;
+    }
+
+    /* wrapper 2  */
+    .total-knee {
+        margin: 20px 0;
+        flex-direction: column;
+    }
+
+    .partial-knee-content p {
+        margin: 20px 0px 20px 20px;
+    }
+
+    /* =========== Hip replacement ============  */
+    .griid{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 40px;
+    }
+
+    .arthroscopy .griid{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 40px;
+    }
+}
+/* ================= 480 px ================  */
+
+@media (max-width: 480px) {
+    /* Wrapper 1  */
+    .content h1 {
+        font-size: 30px;
+    }
+
+    .content p {
+        font-size: 14px;
+    }
+
+    .content button {
+        font-size: 16px;
+        padding: 10px 15px;
+    }
+
+    .img img {
+        max-width: 90%;
+    }
+    /* Wrapper 3  */
+
+    .counter {
+        gap: 10px;
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    .inner-counter {
+        text-align: center;
+    }
+
+    .inner-counter h3 {
+        font-size: 20px;
+    }
+
+    .inner-counter p {
+        font-size: 16px;
+    }
+
+    /* wrapper 4  */
+
+    .grid {
+        grid-template-columns: 1fr;
+    }
+
+    .wrap4-head h2 {
+        font-size: 28px;
+    }
+
+    .wrap4-head p {
+        font-size: 20px;
+    }
+
+    .wrap-btn button {
+        font-size: 15px;
+        padding: 10px;
+    }
+
+    /* wrapper 5  */
+    .wrap5-text h3 {
+        font-size: 25px;
+    }
+
+    .wrap5-text p {
+        font-size: 14px;
+    }
+
+    .wrap5-text button {
+        font-size: 15px;
+        padding: 10px;
+    }
+
+    /* About page wrapper  1 */
+    .about-content li {
+        font-size: 15px;
+        line-height: 1;
+    }
+
+    .about-content h1{
+        font-size: 25px;
+    }
+
+    .about-wrap2 p {
+        line-height: 1.5;
+    }
+
+    .about-wrap4 h2 {
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+
+    .about-wrap4-content li {
+        margin: 0 0 10px 20px;
+    }
+
+    .about-wrap4-content h3{
+        font-size: 19px;
+    }
+     
+    /* ====== Partial knee page ====== */
+
+    .partial-knee-wrap3 .partial-knee-content h2 {
+        font-size: 24px;
+    }
+
+    .partial-knee-content p {
+        font-size: 15px;
+        line-height: 1.5;
+    }
+
+    .about-inner {
+        padding: 0px;
+    }
+
+    .partial-knee-inner {
+        padding: 0px;
+    }
+
+    .routes {
+        margin-top: 0;
+        font-size: 18px;
+    }
+
+    .total-knee-wrap5 h2 {
+        font-size: 22px;
+    }
+
+    .total-knee-content h1 {
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+
+    .partial-knee-wrap5 button {
+        font-size: 14px;
+    }
+
+    .about-col .img {
+        margin-top: 20px;
+    }
+    
+    /* ====== Hip replacement ===========  */
+    .hip-wrap5{
+        margin: 100px 0 50px 0;
+    }
+
+    .hip-wrap5 h2{
+        font-size: 22px;
+    }
+}
