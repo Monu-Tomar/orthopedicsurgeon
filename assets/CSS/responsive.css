@@ -71,60 +71,84 @@
     }
 
     /* Header section  */
-    nav button{
-        display: none; 
-    }
-
-    .top-media .social-links{
-        display: none; 
-    }
 
     .top-media{
-        justify-content: space-between;
-        margin: 0 20px;
+        justify-content: space-between  ;
+    }
+    
+    .social-links{
+        display: none;
     }
 
-    .links.active {
-        display: flex;
+    nav .close-btn{
+        display: block;
     }
 
     .hamburger {
         display: block;
-        cursor: pointer;
         font-size: 24px;
-        padding: 10px;
+        cursor: pointer;
+    }
+
+    nav {
+        flex-direction: column;
+        position: fixed;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        background: white;
+        padding-top: 60px;
+        transition: left 0.3s ease-in-out;
+        box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+        z-index: 1000;
+        overflow-y: auto;
+    }
+
+    nav.show {
+        left: 0;
     }
 
     .links {
-        display: none; 
         flex-direction: column;
-        position: absolute;
-        top: 70px; 
-        left: 0;
-        right: 0;
-        background-color: #333;
-        padding: 10px 20px;
-        z-index: 1000;
+        text-align: justify;
+        padding: 0;
     }
 
-    .links li {
-        margin-bottom: 10px; 
+    .menu-item {
+        position: relative;
+        width: 100%;
     }
 
     .nested-links {
-        border-radius: 10px;
-        position: absolute; 
-        top: 80px;
-        left: 160px;
-        background-color: #333;
-        box-shadow: 0 6px 8px rgba(250, 248, 248, 0.1);
-        padding: 0;
-        z-index: 1000;
+        display: none;
+        position: relative;
+        padding: 10px;
+        margin: 0;
+        list-style: none;
     }
 
-    .nested-links.active {
+    .menu-item:hover .nested-links {
+        position: relative;
+        width: 100%;
+    }
+
+    .nested-links.show {
         display: block;
     }
+
+    .nested-links li {
+        padding: 5px 15px;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    /* nav {
+        width: 70%;
+    } */
+   
 
     /* wrapper 5  */
     .wrap5-img img{
